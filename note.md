@@ -3,6 +3,8 @@
 Repository (Repo): kho, thư mục dự án của chúng ta
 Branch
 Conflict
+Local
+Remote
 # Commands:
 
 - git init
@@ -21,4 +23,6 @@ Conflict
 - git branch -d {branch name}: xóa nhánh mà mình muốn
 - :q : thoát các tiến trình hiện tại
 --------------Kết thúc cơ bản---------------------
-Nâng cao kết hợp với github
+**Nâng cao kết hợp với github
+- git push: đẩy lên local repo trên remote repo
+- git remote add {name} link: tạo alios có tên name, sau này khi cần push code chỉ cần gõ "git push name {branch name}" là sẽ push code lên
