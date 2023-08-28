@@ -2,6 +2,7 @@
 
 Repository (Repo): kho, thư mục dự án của chúng ta
 Branch
+Conflict
 # Commands:
 
 - git init
