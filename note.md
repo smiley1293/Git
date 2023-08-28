@@ -19,3 +19,6 @@ Conflict
 - git checkout -b {branch name}: tạo branch mới
 - git merge {branch name}: hợp nhất các nhánh vào nhánh hiện tại
 - git branch -d {branch name}: xóa nhánh mà mình muốn
+- :q : thoát các tiến trình hiện tại
+--------------Kết thúc cơ bản---------------------
+Nâng cao kết hợp với github
