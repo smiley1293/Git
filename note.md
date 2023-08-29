@@ -5,6 +5,7 @@ Branch
 Conflict
 Local
 Remote
+
 # Commands:
 
 - git init
@@ -17,12 +18,15 @@ Remote
 - git log --oneline: thấy các commit gọn hơn
 - git checkout id: trở lại cái cmmit mình muốn(id tự nhập)
 - git checkout {branch name}: chuyển sang branch mình muốn
-- git branch: check branch 
+- git branch: check branch
 - git checkout -b {branch name}: tạo branch mới
 - git merge {branch name}: hợp nhất các nhánh vào nhánh hiện tại
 - git branch -d {branch name}: xóa nhánh mà mình muốn
 - :q : thoát các tiến trình hiện tại
---------------Kết thúc cơ bản---------------------
-**Nâng cao kết hợp với github
+  --------------Kết thúc cơ bản---------------------
+  \*\*Nâng cao kết hợp với github
 - git push: đẩy lên local repo trên remote repo
 - git remote add {name} link: tạo alios có tên name, sau này khi cần push code chỉ cần gõ "git push name {branch name}" là sẽ push code lên
+- git push -u origin {branch name}: tạo thêm 1 branch trong dự án remote có tên là origin
+- git fetch origin: kéo các branch trên dự án remote có tên origin
+  (git checkout -b staging origin/staging)
