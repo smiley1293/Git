@@ -25,7 +25,7 @@ Remote
 - :q : thoát các tiến trình hiện tại
   --------------Kết thúc cơ bản---------------------
   \*\*Nâng cao kết hợp với github
-- git push: đẩy lên local repo trên remote repo
+- git push {repo link}: đẩy lên local repo trên remote repo
 - git remote add {name} {repo link}: tạo alios có tên name, sau này khi cần push code chỉ cần gõ "git push name {branch name}" là sẽ push code lên
 - git push -u origin {branch name}: tạo thêm 1 branch trong dự án remote có tên là origin
 - git fetch origin: kéo các branch trên dự án remote có tên origin
