@@ -32,6 +32,6 @@ Remote
   (git checkout -b staging origin/staging)
 - git push origin {branch name}
 
-  - git pull <remote> <branch> : lấy code từ nhánh của dự án remote nào đó
-
+- git pull <remote> <branch> : lấy code từ nhánh của dự án remote nào đó
+- Fork (Git hub): lấy dự án hoặc mã nguồn mở về github của mình
   ***
